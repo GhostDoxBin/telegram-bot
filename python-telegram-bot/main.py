@@ -3,6 +3,7 @@ from telegram import Update, WebAppInfo, InlineKeyboardButton, InlineKeyboardMar
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 import re
 import os
+import asyncio
 from datetime import datetime
 
 # Настройка логирования
